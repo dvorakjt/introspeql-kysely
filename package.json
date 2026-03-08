@@ -22,7 +22,7 @@
   "author": "Joseph Dvorak",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dvorakjt/introspeql-kysely"
+    "url": "git+https://github.com/dvorakjt/introspeql-kysely.git"
   },
   "license": "MIT",
   "type": "commonjs",
