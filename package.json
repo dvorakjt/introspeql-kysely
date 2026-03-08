@@ -1,0 +1,37 @@
+{
+  "name": "introspeql-kysely",
+  "version": "0.0.0",
+  "description": "Powered by IntrospeQL, IntrospeQL-Kysely reads types from your Postgres database and generates a type definitions file that is compatible with Kysely",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "Kysely",
+    "IntrospeQL",
+    "PostgreSQL",
+    "Postgres",
+    "TypeScript"
+  ],
+  "author": "Joseph Dvorak",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dvorakjt/introspeql-kysely"
+  },
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@prettier/sync": "^0.6.1",
+    "introspeql": "^2.0.0",
+    "prettier-plugin-jsdoc": "^1.8.0",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.5"
+  }
+}
