@@ -3,7 +3,9 @@
     "lib": ["ESNext"],
     "outDir": "dist",
     "esModuleInterop": true,
-    "declaration": true
+    "declaration": true,
+    "rootDir": "src",
+    "types": ["node"]
   },
   "files": ["src/index.ts"]
 }

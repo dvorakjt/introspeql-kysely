@@ -158,7 +158,10 @@ export class KyselyTypeGenerator {
       columnType = ts.factory.createArrayTypeNode(columnType);
     }
 
-    this.applyNullable(columnType, columnTypeDefinition.isNullable);
+    columnType = this.applyNullable(
+      columnType,
+      columnTypeDefinition.isNullable,
+    );
 
     if (columnTypeDefinition.generated === "always") {
       columnType = ts.factory.createTypeReferenceNode(

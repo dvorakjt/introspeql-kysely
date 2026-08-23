@@ -1,6 +1,6 @@
 {
   "name": "introspeql-kysely",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Powered by IntrospeQL, IntrospeQL-Kysely reads types from your Postgres database and generates a type definitions file that is compatible with Kysely",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -33,6 +33,6 @@
     "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "@types/node": "^25.3.5"
+    "@types/node": "^25.9.5"
   }
 }
